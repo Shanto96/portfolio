@@ -1,0 +1,46 @@
+.i-wraper{
+    height: 77vh;
+    margin-top: 6rem;
+}
+.i-left{
+    flex-direction: column;
+    flex:1;
+    gap: 2rem;
+}
+.i-name{
+    flex-direction: column;
+}
+.i-name>:nth-child(1){
+ font-size: 3rem;
+ font-weight: bold;
+ color: var(--black);
+}
+.i-name>:nth-child(2){
+    font-size: 4rem;
+    font-weight: 500;
+    color: var(--orange);
+}
+.i-name>:nth-child(3){
+    color: grey;
+}
+.i-button{
+    width: 10rem;
+    font-size: 1.5rem;
+}
+.i-right{
+    flex: 1;
+    position: relative;
+}
+.i-social-icon img{
+ transform: scale(0.5)
+}
+.i-right>*{
+    position: absolute;
+    z-index: 1;
+}
+.i-right>:nth-child(1){
+    transform:scale(.70);
+    top:-9%;
+    left:-15%;
+
+}
